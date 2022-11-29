@@ -1,0 +1,8 @@
+.navar{
+    background-color:#cddc39;
+    display: flex;
+    justify-content:space-between ;
+}
+.enlaces{
+    padding: 20px;
+}
