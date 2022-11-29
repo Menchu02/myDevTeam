@@ -25,3 +25,10 @@
 .you{
     color: yellow;
 }
+
+/* ESTILOS SECTION PRINCIPAL */
+.mainImg{
+    background-color: rgb(6, 16, 81);
+    width: 500px;
+    height: 500px;
+}
