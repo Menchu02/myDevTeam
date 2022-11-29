@@ -1,8 +1,27 @@
+/* ESTILOS NAVBAR */
 .navar{
     background-color:#cddc39;
     display: flex;
     justify-content:space-between ;
 }
+.logo{
+    padding-left: 25px;
+}
 .enlaces{
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+.enlaceSomos{
+    text-decoration: none;
+    
+}
+.enlaceBoton{
+    margin-left: 20px;
+}
+.enlaceEquipo{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.you{
+    color: yellow;
 }
