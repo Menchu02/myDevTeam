@@ -1,81 +1,85 @@
 /* GLOBAL RESET*/
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
 /*VARIABLES*/
-:root{
+:root {
   --color1: #cddc39;
 }
 
 /* ESTILOS NAVBAR */
-.navar{
-    background-color: var(--color1);
-    display: flex;
-    justify-content:space-between ;
-    align-items: center;
-    height: 70px;
+.navar {
+  background-color: var(--color1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
 }
-.logo{
-     padding-left: 25px; 
+
+.logo {
+  padding-left: 25px;
 }
-.enlaces{
-    padding-right: 40px; 
+
+.enlaces {
+  padding-right: 40px;
 }
-.enlace{
+
+.enlace {
   color: white;
 }
-.enlaceSomos{
-    text-decoration: none;
-    
+
+.enlaceSomos {
+  text-decoration: none;
 }
-.enlaceBoton{
-    margin-left: 20px;
+
+.enlaceBoton {
+  margin-left: 20px;
 }
-.enlaceEquipo{
-    margin-left: 20px;
-    text-decoration: none;
+
+.enlaceEquipo {
+  margin-left: 20px;
+  text-decoration: none;
 }
-.you{
-    color: yellow;
+
+.you {
+  color: yellow;
 }
 
 /* ESTILOS SECTION PRINCIPAL */
-main{
+main {
   display: flex;
   flex-wrap: wrap;
 }
-.imgMain{
+
+.imgMain {
   display: flex;
-    /* background-color: rgb(6, 16, 81); */
-    width: 50%;
-    justify-content: center;
-
+  /* background-color: rgb(6, 16, 81); */
+  width: 50%;
+  justify-content: center;
 }
-.sectionPresentacion{
 
+.sectionPresentacion {
   display: flex;
   align-items: center;
   padding-left: 60px;
 }
 
-.sectionFichas{
-
+.sectionFichas {
   background-color: grey;
   display: flex;
   justify-content: space-around;
 }
 
-.sectionFichas img{
-
+.sectionFichas img {
   width: 150px;
   height: 150px;
   background-color: #f0f;
 }
 
-.containerFicha{
+.containerFicha {
   background-color: blueviolet;
   padding: 10px;
   display: flex;
@@ -83,15 +87,14 @@ main{
   align-items: center;
 }
 
-.containerFicha h3{
+.containerFicha h3 {
   color: white;
 }
 
-#fichaAndres{
-
-  background-color: yellow;
+#fichaAndres {
+  background-color: var(--color1);
 }
-#fichaCarmen{
 
+#fichaCarmen {
   background-color: green;
 }
