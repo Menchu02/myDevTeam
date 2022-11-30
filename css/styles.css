@@ -45,7 +45,7 @@
 /* ESTILOS SECTION PRINCIPAL */
 main{
   display: flex;
-
+  flex-wrap: wrap;
 }
 .imgMain{
   display: flex;
@@ -59,4 +59,39 @@ main{
   display: flex;
   align-items: center;
   padding-left: 60px;
+}
+
+.sectionFichas{
+
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sectionFichas img{
+
+  width: 150px;
+  height: 150px;
+  background-color: #f0f;
+}
+
+.containerFicha{
+  background-color: blueviolet;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerFicha h3{
+  color: white;
+}
+
+#fichaAndres{
+
+  background-color: yellow;
+}
+#fichaCarmen{
+
+  background-color: green;
 }
