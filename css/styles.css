@@ -10,20 +10,31 @@
 
 /*VARIABLES*/
 :root {
-  --color1: #cddc39;
+  --color1:#17c69b;
+  --color2:#fda543;
+  --color3:#fb3640;
+  --color4:#a90448;
+  --color5:#13141a;
 }
 
 /* ESTILOS NAVBAR */
 .navar {
-  background-color: var(--color1);
+  background-color: var(--color4);
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
+
 }
 
 .logo {
   padding-left: 25px;
+}
+.logo h1{
+  color: var(--color5);
+}
+.logo span{
+  color: var(--color2);
 }
 
 .enlaces {
@@ -40,16 +51,27 @@
 
 .enlaceBoton {
   margin-left: 20px;
+  border: none;
+  outline: none;
+  background-color: var(--color2);
+  padding: 10px;
+border-radius: 15px;
+cursor: pointer;
 }
+
+.enlaceBoton:hover{
+  opacity: 0.75;
+  transition: all 500ms;
+  
+}
+
 
 .enlaceEquipo {
   margin-left: 20px;
   text-decoration: none;
 }
 
-.you {
-  color: yellow;
-}
+
 
 /* ESTILOS SECTION PRINCIPAL */
 main {
@@ -69,6 +91,32 @@ main {
   align-items: center;
   padding-left: 60px;
 }
+.sectionPresentacion h2{
+  font-weight: 700;
+  font-size: 4rem;
+  color: var(--color5);
+}
+.sectionPresentacion p{
+  font-size: 1.5rem;
+  color: var(--color5);
+}
+.buttonPresentacion{
+ 
+  border: none;
+  outline: none;
+  background-color: var(--color1);
+  padding: 10px;
+border-radius: 15px;
+cursor: pointer;
+padding: 10px 15px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.buttonPresentacion:hover{
+  opacity: 0.75;
+  transition: all 500ms;
+
+}
 /* ESTILOS SECTION FICHAS */
 .iconLinkedin {
   width: 32px;
@@ -80,7 +128,7 @@ main {
   display: block; */
 }
 .sectionFichas {
-  background-color: grey;
+background-color: var(--color2);
   display: flex;
   justify-content: space-around;
 }
