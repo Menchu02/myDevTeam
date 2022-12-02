@@ -1,39 +1,49 @@
 /* FUENTES */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Nerko+One&family=Righteous&family=Ubuntu:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Nerko+One&family=Righteous&family=Ubuntu:wght@400;700&display=swap");
+
 /* GLOBAL RESET*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "ubuntu";
 }
 
 /*VARIABLES*/
 :root {
-  --color1:#17c69b;
-  --color2:#fda543;
-  --color3:#fb3640;
-  --color4:#a90448;
-  --color5:#13141a;
+  --color1: #17c69b;
+  --color2: #fda543;
+  --color3: #fb3640;
+  --color4: #a90448;
+  --color5: #13141a;
+}
+
+/* Estilo global */
+* {
+  font-family: "ubuntu";
+}
+body {
+  height: 100vh;
 }
 
 /* ESTILOS NAVBAR */
+.homeLink {
+  text-decoration: none;
+}
 .navar {
   background-color: var(--color4);
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
-
 }
 
 .logo {
   padding-left: 25px;
 }
-.logo h1{
+.logo h1 {
   color: var(--color5);
 }
-.logo span{
+.logo span {
   color: var(--color2);
 }
 
@@ -55,23 +65,19 @@
   outline: none;
   background-color: var(--color2);
   padding: 10px;
-border-radius: 15px;
-cursor: pointer;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
-.enlaceBoton:hover{
+.enlaceBoton:hover {
   opacity: 0.75;
   transition: all 500ms;
-  
 }
-
 
 .enlaceEquipo {
   margin-left: 20px;
   text-decoration: none;
 }
-
-
 
 /* ESTILOS SECTION PRINCIPAL */
 main {
@@ -91,31 +97,29 @@ main {
   align-items: center;
   padding-left: 60px;
 }
-.sectionPresentacion h2{
+.sectionPresentacion h2 {
   font-weight: 700;
   font-size: 4rem;
   color: var(--color5);
 }
-.sectionPresentacion p{
+.sectionPresentacion p {
   font-size: 1.5rem;
   color: var(--color5);
 }
-.buttonPresentacion{
- 
+.buttonPresentacion {
   border: none;
   outline: none;
   background-color: var(--color1);
   padding: 10px;
-border-radius: 15px;
-cursor: pointer;
-padding: 10px 15px;
-margin-top: 10px;
-margin-bottom: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.buttonPresentacion:hover{
+.buttonPresentacion:hover {
   opacity: 0.75;
   transition: all 500ms;
-
 }
 /* ESTILOS SECTION FICHAS */
 .iconLinkedin {
@@ -128,7 +132,7 @@ margin-bottom: 10px;
   display: block; */
 }
 .sectionFichas {
-background-color: var(--color2);
+  background-color: var(--color2);
   display: flex;
   justify-content: space-around;
 }
@@ -141,7 +145,6 @@ background-color: var(--color2);
 }
 
 .containerFicha {
- 
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -152,4 +155,19 @@ background-color: var(--color2);
   color: white;
 }
 
+/*Estilos paginas detalles*/
 
+.imgMainDetalles {
+  margin: 20px;
+}
+
+.imgMainDetalles img {
+  border-radius: 50%;
+  width: 500px;
+}
+
+.perfilEnlaces {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
