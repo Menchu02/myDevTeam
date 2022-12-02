@@ -66,14 +66,23 @@ main {
   align-items: center;
   padding-left: 60px;
 }
-
+/* ESTILOS SECTION FICHAS */
+.iconLinkedin {
+  width: 32px;
+  height: 32px;
+  /* background-image: url(../images/Linked.png);
+  background:no-repeat;
+  width: 500px;
+  height:500px;
+  display: block; */
+}
 .sectionFichas {
   background-color: grey;
   display: flex;
   justify-content: space-around;
 }
 
-.sectionFichas img {
+.fotoFicha {
   width: 150px;
   height: 150px;
   background-color: #f0f;
