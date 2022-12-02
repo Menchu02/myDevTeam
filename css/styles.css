@@ -1,8 +1,11 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Nerko+One&family=Righteous&family=Ubuntu:wght@400;700&display=swap');
 /* GLOBAL RESET*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "ubuntu";
 }
 
 /*VARIABLES*/
@@ -86,6 +89,7 @@ main {
   width: 150px;
   height: 150px;
   background-color: #f0f;
+  border-radius: 50%;
 }
 
 .containerFicha {
