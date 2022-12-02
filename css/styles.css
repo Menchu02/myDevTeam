@@ -141,7 +141,7 @@ background-color: var(--color2);
 }
 
 .containerFicha {
-  background-color: blueviolet;
+ 
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -152,10 +152,4 @@ background-color: var(--color2);
   color: white;
 }
 
-#fichaAndres {
-  background-color: var(--color1);
-}
 
-#fichaCarmen {
-  background-color: green;
-}
