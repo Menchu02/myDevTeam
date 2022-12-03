@@ -34,8 +34,11 @@ Mockup:
 <img src="./img_readme/foto_detalles.jpg"/>
 
 Resultado del sprint:
-<img src=""/>
+<img src="./img_readme/end_of_sprint_home.png"/>
+<img src="./img_readme/end_of_sprint_details.png"/>
 
 Mob programming:
 
 Un miembro del grupo cogía el timón y los demás observavamos, preguntando y/o ofreciendo consejos/explicaciones sobre qué y cómo seguir.
+
+Github Pages: <a href="https://menchu02.github.io/myDevTeam">Link</a>
