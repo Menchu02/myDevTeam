@@ -28,9 +28,9 @@ https://trello.com/b/JZURp07m/my-dev-team
 
 Sketch y mockup usando Figma.
 Sketch:
-<img src=""/>
+<img src=""/>  
 Mockup:
-<img src=""/>
+<img src=""/>  
 Resultado del sprint:
 <img src=""/>
 
