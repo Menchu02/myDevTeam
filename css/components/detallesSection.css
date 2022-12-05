@@ -1,0 +1,17 @@
+/* DETALLES SECTION */
+.imgMainDetalles {
+    margin: 20px;
+  }
+  
+  .imgMainDetalles img {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+  }
+  
+  .perfilEnlaces {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  

@@ -1,0 +1,10 @@
+@import url("./global/variables.css");
+@import url("./global/reset.css");
+@import url("./global/global.css");
+@import url("./components/navBar.css");
+@import url("./components/mainSection.css");
+@import url("./components/cardSection.css");
+@import url("./components/detallesSection.css");
+
+
+

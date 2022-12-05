@@ -1,0 +1,53 @@
+/* ESTILOS NAVBAR */
+.homeLink {
+    text-decoration: none;
+  }
+  .navar {
+    background-color: var(--color4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+  
+  .logo {
+    padding-left: 25px;
+  }
+  .logo h1 {
+    color: var(--color5);
+  }
+  .logo span {
+    color: var(--color2);
+  }
+  
+  .enlaces {
+    padding-right: 40px;
+  }
+  
+  .enlace {
+    color: white;
+  }
+  
+  .enlaceSomos {
+    text-decoration: none;
+  }
+  
+  .enlaceBoton {
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--color2);
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .enlaceBoton:hover {
+    opacity: 0.75;
+    transition: all 500ms;
+  }
+  
+  .enlaceEquipo {
+    margin-left: 20px;
+    text-decoration: none;
+  }

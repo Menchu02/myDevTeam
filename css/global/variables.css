@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Nerko+One&family=Righteous&family=Ubuntu:wght@400;700&display=swap");
+:root {
+    --color1: #17c69b;
+    --color2: #fda543;
+    --color3: #fb3640;
+    --color4: #a90448;
+    --color5: #13141a;
+    --mainFont: "ubuntu";
+  }
