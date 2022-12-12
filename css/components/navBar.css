@@ -3,6 +3,7 @@
     text-decoration: none;
   }
   .navar {
+    padding: 0 20px;
     background-color: var(--color4);
     display: flex;
     justify-content: space-between;
@@ -10,9 +11,9 @@
     height: 70px;
   }
   
-  .logo {
+  /* .logo {
     padding-left: 25px;
-  }
+  } */
   .logo h1 {
     color: var(--color5);
   }
@@ -21,19 +22,24 @@
   }
   
   .enlaces {
-    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px ;
+    /* padding-right: 40px; */
   }
   
   .enlace {
     color: white;
-  }
-  
-  .enlaceSomos {
     text-decoration: none;
   }
   
+  /* .enlaceSomos {
+    text-decoration: none;
+  } */
+  
   .enlaceBoton {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     border: none;
     outline: none;
     background-color: var(--color2);
@@ -47,7 +53,8 @@
     transition: all 500ms;
   }
   
-  .enlaceEquipo {
+  /* .enlaceEquipo {
     margin-left: 20px;
     text-decoration: none;
-  }
+  } */
+  

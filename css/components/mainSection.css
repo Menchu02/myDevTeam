@@ -16,6 +16,11 @@ main {
     display: flex;
     align-items: center;
   }
+  .sectionPresentacion div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
   .sectionPresentacion h2 {
     font-weight: 700;
     font-size: 4rem;
